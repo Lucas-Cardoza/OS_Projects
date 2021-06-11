@@ -1,0 +1,10 @@
+﻿  simpager.cpp
+C:\Users\whook\Google Drive\School Stuff\Fall Semester 2020\CSC 360\Project 5\simpager\simpager.cpp(60,27): warning C4018: '<': signed/unsigned mismatch
+C:\Users\whook\Google Drive\School Stuff\Fall Semester 2020\CSC 360\Project 5\simpager\simpager.cpp(131,33): warning C4018: '<': signed/unsigned mismatch
+C:\Users\whook\Google Drive\School Stuff\Fall Semester 2020\CSC 360\Project 5\simpager\simpager.cpp(188,33): warning C4018: '<': signed/unsigned mismatch
+C:\Users\whook\Google Drive\School Stuff\Fall Semester 2020\CSC 360\Project 5\simpager\simpager.cpp(257,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\whook\Google Drive\School Stuff\Fall Semester 2020\CSC 360\Project 5\simpager\simpager.cpp(265,37): warning C4018: '<': signed/unsigned mismatch
+C:\Users\whook\Google Drive\School Stuff\Fall Semester 2020\CSC 360\Project 5\simpager\simpager.cpp(275,35): warning C4018: '<': signed/unsigned mismatch
+C:\Users\whook\Google Drive\School Stuff\Fall Semester 2020\CSC 360\Project 5\simpager\simpager.cpp(338,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\whook\Google Drive\School Stuff\Fall Semester 2020\CSC 360\Project 5\simpager\simpager.cpp(348,37): warning C4018: '<': signed/unsigned mismatch
+  simpager.vcxproj -> C:\Users\whook\Google Drive\School Stuff\Fall Semester 2020\CSC 360\Project 5\simpager\Debug\simpager.exe

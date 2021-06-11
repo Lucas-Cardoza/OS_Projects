@@ -1,0 +1,75 @@
+<HTML>
+<head>
+<TITLE>CSC 360/660, Operating Systems: Project 4</TITLE>
+</head>
+
+<BODY bgcolor="#FFFFFF" text="#000000" link="#0000FF" vlink="#800080" alink="#FF0000">
+
+<b>CSC 360/660, Operating Systems <br><br>
+
+Project #4: Implementation of Banker's Algorithm <br><br>
+
+</b>
+
+<div style="border-bottom:solid windowtext .75pt"> </div>
+
+<p><b>OBJECTIVE</b></p>
+
+<p>The purpose of this programming project is to explore resource allocation algorithms.&nbsp; This can be achieved by implementing the banker's algorithm as described in our textbook and discussed in class.</p>
+
+
+<p><b>This project is worth 100 points.&nbsp; 20 extra points will be awarded if you correctly implement this project in some other programming language (Python, Java, FORTRAN, C# etc.)</b></p>
+<p>&nbsp;</p>
+
+<p><b>PROJECT SPECIFICATIONS</b></p>
+<p>Review the banker's algorithm discussed in class.&nbsp; Your program must be named &quot;banker&quot; and will read the allocation, max, available, and request vectors from a file.&nbsp; The name of the file will be passed to your program as a command line   argument.&nbsp; The input file format is the following:</p>
+
+<blockquote>
+	<ul>
+		<li>number of processes: n</li>
+		<li>number of resource types: m</li>
+		<li>An n x m allocation matrix</li>
+		<li>An n x m max matrix</li>
+		<li>A 1 x m available vector</li>
+		<li>A i : 1 x m request vector </li>
+	</ul>
+</blockquote>
+
+<p>Your program will output the following in a standardized format.</p>
+<ol type="a">
+	<li>Echo the number of processes.</li>
+	<li>Echo the number of resource types.</li>
+	<li>Echo the allocation matrix.&nbsp; Label the processes and resource types (see sample output).</li>
+	<li>Echo the max matrix.&nbsp; Label the processes and resource types (see sample output).</li>
+	<li>Compute and print the need matrix.&nbsp; Label the processes and resource types (see sample output).</li>
+	<li>Echo the available vector.&nbsp; Label the resource types.</li>
+	<li>Compute if the system is in a safe state.</li>
+	<li>Echo the request vector.&nbsp; Label the process making the request and resource types (see sample output).</li>
+	<li>Compute if the request can be granted.</li>
+	<li>Compute the new available vector (see sample output).</li>
+</ol>
+
+<blockquote>
+<p><a href="s1.txt">Here is a sample input file</a>.</p>
+Here is how the program should be run.
+<p><pre>% banker s1.txt</pre></p>
+<p><a href="s1_soln.txt">Here is the sample output.</a></p>
+<p>Sample input is provided however you should test your program with different number of processes and resource types (i.e. different datasets).&nbsp; </p>
+</blockquote>
+<p>&nbsp;</p>
+
+<p><b>ASSESSMENT AND GRADING</b></p>
+<p>This is an individual assignment.&nbsp; Your program may be written in C or C++.&nbsp; 
+	Comment and document all code submitted!&nbsp; 
+	You may do development work on your personal machine but final submissions must compile without errors or warnings and execute without core dumping.&nbsp; 
+	Your program will be tested on a Windows Linux Subsystem environment.&nbsp; 
+	Your project must follow the documentation standards defined <a href="documentation.html">here</a>.&nbsp; 
+	Use good programming practices by implementing procedures and functions where necessary.&nbsp; 
+	You may use the STL in your solution.</p>
+<p>&nbsp;</p>
+
+<p><b>PROJECT SUBMISSION</b></p>
+<p>Please submit your project on Blackboard.&nbsp;</p>
+
+</BODY>
+</HTML>

@@ -1,0 +1,43 @@
+There are 5 processes in the system.
+
+There are 4 resource types.
+
+The Allocation Matrix is...
+   A B C D
+0: 0 0 1 2
+1: 1 0 0 0
+2: 1 3 5 4
+3: 0 6 3 2
+4: 0 0 1 4
+
+The Max Matrix is...
+   A B C D
+0: 0 0 1 2
+1: 1 7 5 0
+2: 2 3 5 6
+3: 0 6 5 2
+4: 0 6 5 6
+
+The Need Matrix is...
+   A B C D
+0: 0 0 0 0
+1: 0 7 5 0
+2: 1 0 0 2
+3: 0 0 2 0
+4: 0 6 4 2
+
+The Available Vector is...
+A B C D
+1 5 2 0
+
+THE SYSTEM IS IN A SAFE STATE!
+
+The Request Vector is...
+  A B C D
+1:0 4 2 0
+
+THE REQUEST CAN BE GRANTED!
+
+The Available Vector is...
+A B C D
+1 1 0 0

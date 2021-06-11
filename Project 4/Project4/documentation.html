@@ -1,0 +1,111 @@
+<HTML>
+
+<HEAD>
+<TITLE>COSC 3346, Operating Systems / COSC 5331, Foundations of Computer System Software: Documentation Standards</TITLE>
+</HEAD>
+
+<BODY>
+
+
+<H2>Documentation Standards</H2>
+
+
+All programming projects must be documented.  Documentation counts for at most 10%
+of the programming project grade.  At the top of each file, please
+include a comment block containing the following information.  Note, it
+does not have to look like this "box" style documentation.  However, it
+should be very readable.
+<OL>
+	<LI>Your Name
+	<LI>Course Name
+	<LI>Project Number and Title
+	<LI>Due Date
+	<LI>Instructor's Name
+</OL>
+
+
+<H4>EXAMPLE:</H4><P>
+
+
+<PRE>//********************************************************************
+//
+// Ima CPP. Programmer
+// Operating Systems
+// Programming Project #0: Project Title
+// January 1, 1970
+// Instructor: Dr. Ajay K. Katangur
+//
+//********************************************************************
+
+</PRE>Each procedure or function should have a documentation "header" that includes
+the following information
+
+<OL>
+	<LI> Function or Procedure Name
+	<LI> A Brief Description of the Function or Procedure
+	<LI> Value Parameter Data Dictionary
+	<LI> Reference Parameter Data Dictionary
+	<LI> Local Variable Data Dictionary
+</OL>
+
+
+<H4>EXAMPLE:</H4><P>
+
+
+<PRE>//********************************************************************
+//
+// Linear Search Function
+//
+// This function performs a linear search on an list of student
+// records.  If the search key is found in the list, the return
+// value is true and false otherwise.
+//
+// Return Value
+// ------------
+// bool                         True/False if Key is found
+//
+// Value Parameters
+// ----------------
+// Key		string		The search key
+// SList	StudentList	The list of student structures
+//
+// Reference Parameters
+// --------------------
+// location     int             The location where Key is found
+//
+// Local Variables
+// ---------------
+// ii		int		Loop Iteration Variable
+// retval	int		Temporary Return Value
+//
+//*******************************************************************
+bool linear_search( SList StudentList, string Key, int &location )
+{
+  // local variables
+  bool retval;
+  int ii;
+
+
+  // initialize local variables
+  retval = false;
+  ii = 0;
+
+
+  location = -1;
+
+
+  // search for the key in the list
+  for( ii=0; ((ii&lt;SList.Size()) && (!retval)); ii++ )
+     if( SList.Name == Key )
+       {
+         location = ii;
+	 retval = true;
+       }
+
+
+  // return to calling function
+  return( retval );
+}
+</PRE>
+
+</BODY>
